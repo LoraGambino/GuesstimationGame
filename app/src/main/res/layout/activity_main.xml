@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lora.guesstimationgame.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:fontFamily="monospace"
+            android:text="Welcome to Guesstimation"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <Button
+            android:id="@+id/SignIn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Sign In To Play"
+            android:layout_weight="0.20" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <Button
+            android:id="@+id/Admin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Admin"
+            android:layout_weight="0.18" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
